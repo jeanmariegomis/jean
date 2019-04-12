@@ -1,0 +1,207 @@
+body
+{
+margin: 0px;
+padding: 0px;
+}
+
+nav > ul{
+margin: 0px;
+padding: 0px;
+}
+nav > ul > li {
+float: left;
+position: relative;
+}
+nav li {
+list-style-type: none;
+}
+.Bloc{
+display: none;
+}
+nav
+{
+width: 100%;
+background-color: rgb(255, 0, 0);
+}
+nav > ul::after
+{
+content: "";
+display: block;
+clear: both;
+}
+nav a{
+display: inline-block;
+text-decoration: none;
+}
+nav > ul > li > a {
+padding: 20px 30px;
+color:white;
+}
+nav li:hover .Bloc{
+display: inline-block;
+position: absolute;
+top: 100%;
+left: 0px;
+padding: 0px;
+z-index: 100000;
+}
+.Bloc li{
+border-bottom: 1px, solid rgb(27, 207, 57);
+}
+.Bloc li a{
+padding: 20px 30px;
+font-size: 13px;
+color: black;
+width: 300px;
+}
+.page1:hover{
+border-top: 5px, solid rgb(165, 155, 155);
+background-color: rgb(49, 36, 49);
+}
+.page2:hover{
+border-top: 5px, solid black;
+background-color: rgb(15, 5, 22);
+}
+.page3:hover{
+border-top: 5px, solid black;
+background-color: darkturquoise;
+}
+.page4:hover{
+border-top: 5px, solid black;
+background-color: blueviolet;
+
+}
+nav > ul > li:hover a{
+padding: 15px, 15px, 20px, 30px;
+}
+.page1 .Bloc{
+background-color: chocolate;
+}
+.page2 .Bloc{
+background-color: indigo;
+}
+.page3 .Bloc{
+background-color: darkturquoise;
+
+}
+.page4 .Bloc{
+background-color: blueviolet;
+}
+.Bloc li:hover a {
+color: white;
+font-weight: bold;
+}
+.page1 .Bloc li:hover{
+background-color: rgb(121, 32, 32);
+}
+.page2 .Bloc li:hover{
+background-color: rgb(25, 206, 34);
+}
+.page3 .Bloc li:hover{
+background-color: rgb(104, 47, 45);
+}
+.page4 .Bloc li:hover{
+background-color: rgb(146, 120, 170);
+}
+
+#principal{
+border: 1px solid rgb(18, 21, 185);
+margin-left: 200px;
+margin-right: 200px;
+height: 620px;
+}
+#figure{
+border: 1px solid blue;
+margin: 5px;
+}
+.image{
+width: 100px;
+height: 100px;
+margin-top: 2px;
+margin-left: 2px;
+}
+#Menu{
+border: 0px solid black;
+margin: 5px;
+height: 100px;
+}
+ul{
+display: block;
+}
+li{
+display: inline-block;
+width: 215px;
+color: red;
+}
+#Milieu{
+border: 1px solid blue;
+margin: 5px;
+height: 300px;
+padding: 5px;
+margin-top: -30px;
+background: yellow;
+}
+#Milieu1{
+border: 1px solid blue;
+margin: 5px;
+height: 280px;
+width: 400px;
+background: yellowgreen;
+}
+#Milieu2{
+border: 1px solid blue;
+margin-left: 420px;
+width: 450px;
+height: 270px;
+padding: 5px;
+margin-top: -290px;
+background: yellowgreen;
+}
+#Milieu21{
+border: 1px solid blue;
+margin: 5px;
+width: 440px;
+height: 150px;
+background: burlywood;
+}
+#Milieu22{
+border: 1px solid blue;
+margin: 5px;
+width: 440px;
+height: 100px;
+background: burlywood;
+}
+#piedpage{
+border: 1px solid blue;
+margin: 5px;
+height: 100px;
+background: violet;
+}
+#piedpage1{
+border: 1px solid blue;
+margin: 5px;
+padding: 5px;
+height: 80px;
+width: 247px;
+background: rgba(48, 4, 11, 0.438);
+}
+#piedpage2{
+border: 1px solid blue;
+margin: 5px;
+padding: 5px;
+margin-left: 263px;
+width: 306px;
+height: 80px;
+margin-top: -97px;
+background: burlywood;
+}
+#piedpage3{
+border: 1px solid blue;
+margin: 5px;
+padding: 5px;
+margin-left: 580px;
+width: 300px;
+height: 80px;
+margin-top: -97px;
+background: rgb(68, 64, 60);
+}
